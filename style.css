@@ -66,3 +66,13 @@ li a:hover {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
+h2 {
+    font-weight: bold;
+    color: #df0026;
+}
+
+.about-us {
+    width: 100%;
+    background-color: #f2f2f2;
+    
+}

@@ -74,5 +74,31 @@ h2 {
 .about-us {
     width: 100%;
     background-color: #f2f2f2;
-    
+}
+
+.about-us img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.partners {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.partners img {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.partners img:hover {
+    opacity: 1;
+    scale: 1.1;
+}
+
+.partners h3 {
+    text-align: center;
 }

@@ -71,12 +71,12 @@ h2 {
     color: #df0026;
 }
 
-.about-us {
+#about-us {
     width: 100%;
     background-color: #f2f2f2;
 }
 
-.about-us img {
+#about-us img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -87,6 +87,7 @@ h2 {
 .partners {
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .partners img {
@@ -101,4 +102,12 @@ h2 {
 
 .partners h3 {
     text-align: center;
+    width: 200px;
+}   
+
+.resumen {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
 }

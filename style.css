@@ -162,3 +162,59 @@ form button:hover {
 .imageform img{
     height: 50vh;
 }
+
+footer {
+    margin-top: 10px;
+    background-color: #df0026;
+}
+
+.columnas-footer {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.findus h4 {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.logos-footer {
+    display: flex;
+    gap: 10px;
+}
+
+.logos-footer img {
+    height: 50px;   
+}
+
+.texto-footer {
+    color: #f2f2f2;
+}
+
+.texto-footer p {
+    max-width: 50%;
+}
+
+#irArriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #df0026;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#irArriba a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+#irArriba:hover {
+    box-shadow: 0 5px 15px rgba(223, 0, 38, 1);   
+}

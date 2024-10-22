@@ -62,13 +62,15 @@ li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3em;
+    font-size: 3rem;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
+    padding: 10px;
     font-weight: bold;
     color: #df0026;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 #about-us {
@@ -103,11 +105,60 @@ h2 {
 .partners h3 {
     text-align: center;
     width: 200px;
+    
 }   
 
 .resumen {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+}
+
+.form-columns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, textarea {
+    border-radius: 8px;
+}
+
+form button {
+    color: #f2f2f2;
+    margin: 5px;
+    background-color: #df0026;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+form button:hover {
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(223, 0, 38, 1);
+}
+
+#form h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #df0026;
+    padding: 10px 20px 10px 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#form p {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.imageform img{
+    height: 50vh;
 }

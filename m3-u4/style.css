@@ -1,0 +1,19 @@
+.cuadrado {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#cuadrado1 {
+    background-color: red;
+}
+
+#cuadrado2 {
+    background-color: blue;
+}
+
+#cuadrado3 {
+    background-color: green;
+}
